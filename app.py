@@ -13,7 +13,7 @@ def get_model():
 
 tokenizer,model = get_model()
 
-user_input = st.text_area('Enter Text to Analyze')
+user_input = st.text_area('Enter a **Review** to Analyze')
 button = st.button("Analyze")
 
 d = {
